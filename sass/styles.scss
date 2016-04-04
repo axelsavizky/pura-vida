@@ -1,0 +1,64 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+$icon-font-path: "../Users/axelsavizky/workspace/Pura%20Vida/bootstrap-sass-3.3.6/assets/fonts/bootstrap/";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+body {
+   background-color: black;
+   color: white;
+}
+
+.container {
+   .image-header {
+      height: 830px;
+     background: url("../img/DSC07267.jpg") -150px -1150px;
+     background-repeat: no-repeat;
+     zoom: 24%;
+   }
+
+   .navbar {
+      margin-top: 15px;
+
+      .navbar-nav {
+         li {
+            &:hover {
+               background-color: #616161;
+            }
+         }
+      }
+   }
+
+   .carousel {
+      .carousel-inner {
+         width: 90%;
+         margin: 0 auto;
+
+         .item {
+            &:before {
+               content: '';
+               position:absolute;
+               top:0;
+               left: 0;
+               right: 0;
+               bottom: 0;
+               background: linear-gradient(to top, rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.2) 30%);
+               z-index: 1;
+            }
+            img {
+               display: block;
+               max-width:1060px;
+                max-height:500px;
+                width: auto;
+                height: auto;
+
+            }
+         }
+      }
+   }
+}
