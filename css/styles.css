@@ -8812,12 +8812,17 @@ body {
 .container .navbar .navbar-nav li:hover {
   background-color: #616161;
 }
-/* line 38, ../sass/styles.scss */
+/* line 34, ../sass/styles.scss */
+.container .navbar .navbar-nav li .comming-soon {
+  display: none;
+  cursor: default;
+}
+/* line 43, ../sass/styles.scss */
 .container .carousel .carousel-inner {
   width: 90%;
   margin: 0 auto;
 }
-/* line 43, ../sass/styles.scss */
+/* line 48, ../sass/styles.scss */
 .container .carousel .carousel-inner .item:before {
   content: '';
   position: absolute;
@@ -8828,7 +8833,7 @@ body {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.2) 30%);
   z-index: 1;
 }
-/* line 53, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 .container .carousel .carousel-inner .item img {
   display: block;
   max-width: 1060px;

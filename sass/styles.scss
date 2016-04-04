@@ -30,6 +30,11 @@ body {
             &:hover {
                background-color: #616161;
             }
+
+            .comming-soon {
+               display: none;
+               cursor: default;
+            }
          }
       }
    }
