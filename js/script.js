@@ -1,11 +1,12 @@
 $(document).ready(function() {
    $('.buy').hover(function() {
-      $('.comming-soon').slideDown();
-      $('.buy-text').slideUp();
+      $('.buy-text').html("Proximamente!");
    },
    function() {
-      $('.buy-text').slideDown();
-      $('.comming-soon').slideUp();
-   }
-   );
+      $('.buy-text').html("Comprar");
+   });
+
+   $('.buy').click(function(event) {
+      event.preventDefault();
+   });
 });

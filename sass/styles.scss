@@ -4,7 +4,7 @@
 // Import custom Bootstrap variables
 @import "bootstrap-variables";
 
-$icon-font-path: "../Users/axelsavizky/workspace/Pura%20Vida/bootstrap-sass-3.3.6/assets/fonts/bootstrap/";
+$icon-font-path: "../home/axelsavizky/workspace/pura-vida/bootstrap-sass-3.3.6/assets/fonts/bootstrap/";
 
 // Import Bootstrap for Sass
 @import "bootstrap";
@@ -17,7 +17,7 @@ body {
 .container {
    .image-header {
       height: 830px;
-     background: url("../img/DSC07267.jpg") -150px -1150px;
+     background: url("../img/DSC07267.JPG") -150px -1150px;
      background-repeat: no-repeat;
      zoom: 24%;
    }
@@ -25,43 +25,23 @@ body {
    .navbar {
       margin-top: 15px;
 
+      .navbar-header {
+         img.logo {
+            width: 30px;
+            margin-top: -6px;
+            margin-right: 5px;
+            float: left;
+         }
+
+         span.logo-title {
+            float: left;
+         }
+      }
+
       .navbar-nav {
          li {
             &:hover {
                background-color: #616161;
-            }
-
-            .comming-soon {
-               display: none;
-               cursor: default;
-            }
-         }
-      }
-   }
-
-   .carousel {
-      .carousel-inner {
-         width: 90%;
-         margin: 0 auto;
-
-         .item {
-            &:before {
-               content: '';
-               position:absolute;
-               top:0;
-               left: 0;
-               right: 0;
-               bottom: 0;
-               background: linear-gradient(to top, rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.2) 30%);
-               z-index: 1;
-            }
-            img {
-               display: block;
-               max-width:1060px;
-                max-height:500px;
-                width: auto;
-                height: auto;
-
             }
          }
       }

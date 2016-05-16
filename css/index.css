@@ -1,0 +1,24 @@
+/* line 3, ../sass/index.scss */
+.container .carousel .carousel-inner {
+  width: 90%;
+  margin: 0 auto;
+}
+/* line 8, ../sass/index.scss */
+.container .carousel .carousel-inner .item:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.2) 30%);
+  z-index: 1;
+}
+/* line 18, ../sass/index.scss */
+.container .carousel .carousel-inner .item img {
+  display: block;
+  max-width: 1060px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
