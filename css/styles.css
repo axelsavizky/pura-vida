@@ -8823,3 +8823,17 @@ body {
 .container .navbar .navbar-nav li:hover {
   background-color: #616161;
 }
+
+/* line 51, ../sass/styles.scss */
+.footer {
+  height: 60px;
+  margin-top: 30px;
+  background-color: #151515;
+  color: #848484;
+  padding-top: 20px;
+  text-align: center;
+}
+/* line 59, ../sass/styles.scss */
+.footer .social-media-icon {
+  margin-left: 5px;
+}
