@@ -11,6 +11,7 @@ $icon-font-path: "../home/axelsavizky/workspace/pura-vida/bootstrap-sass-3.3.6/a
 
 body {
    background-color: black;
+   font-family: 'Lato', Helvetica;
    color: white;
 }
 
@@ -23,8 +24,6 @@ body {
    }
 
    .navbar {
-      margin-top: 15px;
-
       .navbar-header {
          img.logo {
             width: 30px;
